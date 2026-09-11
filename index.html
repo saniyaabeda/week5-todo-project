@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Smart To-Do List</h1>
+        <p>Organize your daily tasks easily</p>
+    </header>
+
+    <main class="container">
+
+        <section class="task-form">
+            <h2>Add New Task</h2>
+
+            <input type="text" id="taskInput" placeholder="Enter your task">
+
+            <select id="categoryInput">
+                <option value="Personal">Personal</option>
+                <option value="Study">Study</option>
+                <option value="Work">Work</option>
+            </select>
+
+            <button id="addTaskBtn">Add Task</button>
+        </section>
+
+        <section class="controls">
+            <input type="text" id="searchInput" placeholder="Search tasks...">
+
+            <select id="filterInput">
+                <option value="All">All Tasks</option>
+                <option value="Completed">Completed</option>
+                <option value="Pending">Pending</option>
+            </select>
+        </section>
+
+        <section class="task-section">
+            <h2>My Tasks</h2>
+
+            <p id="taskCounter">Total Tasks: 0</p>
+
+            <div id="taskList"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Smart To-Do List | JavaScript Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
