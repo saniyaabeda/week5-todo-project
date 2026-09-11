@@ -27,6 +27,17 @@ Smart To-Do List is a browser-based task management application developed as the
 
 ## Website Screenshots
 Screenshots of the completed project are included in the project documentation.
+### Main Page
+![Main Page](screenshots/main-page.png)
+
+### Added Task
+![Added Task](screenshots/added-task.png)
+
+### Completed Task
+![Completed Task](screenshots/completed-task.png)
+
+### Search and Filter
+![Search and Filter](screenshots/search-filter.png)
 
 ## GitHub Repository Link
 PASTE YOUR GITHUB REPOSITORY LINK HERE
